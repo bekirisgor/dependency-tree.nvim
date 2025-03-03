@@ -127,7 +127,7 @@ function M.show_dependency_tree()
 
 	-- Get maximum depth from config with type safety
 	local max_depth = tonumber(config.max_depth) or 3
-	
+
 	-- Ensure max_depth is within reasonable bounds
 	if max_depth < 1 then
 		max_depth = 1
